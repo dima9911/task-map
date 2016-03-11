@@ -64,7 +64,7 @@ function send(i, coun)
 				$('body').append("<a id='r_" + region[i] + "' class='tooltips animated zoomIn' href='../''></a>");
 				$('body').append("<span id='t_" + region[i] + "' class='tooltips wave2'></span>");
 				// $('body').append("<span id='t_" + region[i] + "' class='tooltips wave'></span>");
-				$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
+			//	$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
 
 				$("#r_" + region[i]).text(data2[0]['Title']);
 				$("#r_" + region[i]).attr("href", "http://www."+data2[0]['URL']);
@@ -108,7 +108,7 @@ function send(i, coun)
 				$('body').append("<a id='r_" + region[i] + "' class='tooltips animated zoomIn' href='../''></a>");
 				$('body').append("<span id='t_" + region[i] + "' class='tooltips wave2'></span>");
 				// $('body').append("<span id='t_" + region[i] + "' class='tooltips wave'></span>");
-				$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
+				//$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
 
 				$("#r_" + region[i]).text(data2[0]['Title']);
 				$("#r_" + region[i]).attr("href", "http://www."+data2[0]['URL']);
@@ -157,7 +157,7 @@ function send(i, coun)
 				$('body').append("<a id='r_" + region[i] + "' class='tooltips animated zoomIn' href='../''></a>");
 				$('body').append("<span id='t_" + region[i] + "' class='tooltips wave2'></span>");
 				// $('body').append("<span id='t_" + region[i] + "' class='tooltips wave'></span>");
-				$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
+				//$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
 
 				$("#r_" + region[i]).text(data2[0]['Title']);
 				$("#r_" + region[i]).attr("href", "http://www."+data2[0]['URL']);
@@ -204,7 +204,7 @@ region = [ "846", "475", "841", "491", "482", "817", "492", "493", "390", "382",
 				$('body').append("<a id='r_" + region[i] + "' class='tooltips animated zoomIn' href='../''></a>");
 				$('body').append("<span id='t_" + region[i] + "' class='tooltips wave2'></span>");
 				// $('body').append("<span id='t_" + region[i] + "' class='tooltips wave'></span>");
-				$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
+				//$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
 
 				$("#r_" + region[i]).text(data2[0]['Title']);
 				$("#r_" + region[i]).attr("href", "http://www."+data2[0]['URL']);
@@ -250,7 +250,7 @@ if (data2[0]['Title'] != null)
 				$('body').append("<a id='r_" + region[i] + "' class='tooltips animated zoomIn' href='../''></a>");
 				$('body').append("<span id='t_" + region[i] + "' class='tooltips wave2'></span>");
 				// $('body').append("<span id='t_" + region[i] + "' class='tooltips wave'></span>");
-				$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
+			//	$('body').append("<span id='t_" + region[i] + "' class='tooltips dot'></span>");
 
 				$("#r_" + region[i]).text(data2[0]['Title']);
 				$("#r_" + region[i]).attr("href", "http://www."+data2[0]['URL']);
